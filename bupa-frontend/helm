@@ -1,0 +1,32 @@
+clonr the repo
+git clone https://github.com/Aakibgithuber/Three-tier-Application-Deployment-.git
+cd Three-tier-Application-Deployment-
+
+Step 2: Install Helm (If Not Already Installed)
+Before proceeding, make sure Helm is installed. If not, install Helm by running the following commands based on your operating system:
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+
+3 helm create three-tier-app
+
+4  Step 4: Modify the Helm Chart Templates
+We'll modify the Helm templates for backend, frontend, and the database services.
+
+Move the existing Kubernetes YAML files into the Helm chart:
+
+In the three-tier-app/templates/ directory, replace the default deployment.yaml and service.yaml with your existing backend-deployment.yaml, frontend-deployment.yaml, mongo-deployment.yaml, and service files.
+
+
+
+
+
+
+
+
+
+
+https://github.com/dv-sharma/three-tier-architecture-handson/tree/master/EKS
+https://github.com/sarat9/microservices-architect-config-starter/blob/main/shoes-microservice-spring-boot/README.md
+1-https://github.com/DeekshithSN/Helm_.git
+2-https://github.com/DeekshithSN/Helm
+https://github.com/dv-sharma/three-tier-architecture-handson.git
+
