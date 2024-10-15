@@ -9,6 +9,10 @@ entries:
     name: sadir-frontend
     type: application
     urls:
+<<<<<<< HEAD
     - https://github.com/Rushikesh-guthub/helm/sadir-frontend-0.1.0.tgz
+=======
+    - https://raw.githubusercontent.com/Rushikesh-guthub/helm/main/sadir-frontend-0.1.0.tgz
+>>>>>>> de33163b67e91d5af29996ca8386b6d56267acc1
     version: 0.1.0
 generated: "2024-10-15T10:03:20.587527555Z"
